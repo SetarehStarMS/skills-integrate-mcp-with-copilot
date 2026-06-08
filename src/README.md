@@ -6,6 +6,7 @@ A super simple FastAPI application that allows students to view and sign up for 
 
 - View all available extracurricular activities
 - Sign up for activities
+- Manage the seeded activity catalog in `activities.json`
 
 ## Getting Started
 
@@ -47,4 +48,5 @@ The application uses a simple data model with meaningful identifiers:
    - Name
    - Grade level
 
-All data is stored in memory, which means data will be reset when the server restarts.
+The seeded activity catalog is stored in `activities.json`.
+Registrations are still stored in memory at runtime, which means signup changes reset when the server restarts.
